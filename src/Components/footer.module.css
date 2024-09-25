@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color:#1e1e1e;
+    color: white;
+  }
+  
+  .section {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+  }
+  
+  .section h2 {
+    text-align:left;
+    margin-bottom: 10px;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .connect h3 {
+    margin-bottom: 10px;
+  }
+  
+  .socialmedia {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .socialmedia li {
+    margin: 0 5px;
+  }
+  
+  .socialmedia li a {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .app h3 {
+    margin-bottom: 10px;
+  }
+  
+  .appstore {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .appstore li {
+    margin: 0 5px;
+  }
+  
+  .appstore li a {
+    display: inline-block;
+  }
+  
+  .appstore li a img {
+    width: 120px;
+  }
+  
+
+  
+  .copyright {
+    text-align: center;
+    padding: 10px;
+    /* border-top: 1px solid #ccc; */
+    margin-top: -70px;
+  }
