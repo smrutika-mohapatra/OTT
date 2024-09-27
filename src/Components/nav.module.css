@@ -10,6 +10,7 @@
   z-index: 1;
   width: 100%;
   padding: 0 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbarlogo h1 {
@@ -20,7 +21,7 @@
 #links {
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .navbarmenu {
@@ -31,8 +32,9 @@
 }
 
 .navbarmenu li {
-  margin-left: 20px;
+  margin-left: 100px;
   cursor: pointer;
+  /* font-size: 2rem; */
 }
 
 .navbarlive {
@@ -48,10 +50,11 @@
 .navbaractions {
   display: flex;
   align-items: center;
+  /* margin-left: -40px; */
 }
 
 .searchicon {
-  margin-right: 20px;
+  margin-right: 40px;
   cursor: pointer;
 }
 
@@ -64,6 +67,7 @@
   margin-left: 10px;
   border-radius: 4px;
   transition: background-color 0.3s ease;
+  /* padding-right: 40px; */
 }
 
 .subscribebutton:hover, .signinbutton:hover {

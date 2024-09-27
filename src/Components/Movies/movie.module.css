@@ -8,30 +8,53 @@
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  margin-left: 6%;
-  /* display: flex; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Responsive styles */
+.bannercontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bannerimage {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.moviedetails {
+  margin-left: 50px;
+  text-align: left;
+}
+
+.watchnowbutton {
+  background-color: #ff5c5c;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Adjustments for large tablets and smaller laptops */
 @media (max-width: 1200px) {
   .carouselcontainer {
     padding: 20px;
-    margin-left: 2%;
   }
 
   .bannerimage {
-    width: 55%;
+    width: 70%;
   }
 }
 
 @media (max-width: 1024px) {
   .carouselcontainer {
     max-width: 90%;
-    margin-left: 5%;
   }
 
   .bannerimage {
-    width: 50%;
+    width: 65%;
   }
 
   .movietitle {
@@ -39,6 +62,7 @@
   }
 
   .moviedetails {
+    margin-left: 20px;
     padding: 15px;
   }
 
@@ -47,6 +71,7 @@
   }
 }
 
+/* Adjustments for tablets and smaller screens */
 @media (max-width: 768px) {
   .carouselcontainer {
     max-width: 95%;
@@ -55,28 +80,34 @@
 
   .carouselslide {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
   }
 
   .bannercontent {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
   }
 
   .bannerimage {
-    width: 100%;
-    border: none;
-    margin-bottom: 20px;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 15px;
   }
 
   .moviedetails {
+    margin-left: 0;
     padding: 10px;
+    text-align: center;
   }
 
   .movietitle {
     font-size: 1.8rem;
+  }
+
+  .moviesubtitle {
+    font-size: 1rem;
   }
 
   .watchnowbutton {
@@ -85,9 +116,10 @@
   }
 }
 
+/* Adjustments for mobile screens */
 @media (max-width: 480px) {
   .container {
-    padding: 40px;
+    padding: 40px 10px;
   }
 
   .carouselcontainer {
@@ -103,6 +135,7 @@
 
   .moviedetails {
     padding: 5px;
+    text-align: center;
   }
 
   .movietitle {
